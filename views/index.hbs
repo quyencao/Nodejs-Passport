@@ -1,6 +1,27 @@
 {{> header }}
 
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+    <div class="container">
+        <h1>{{title}}</h1>
+
+        <form action="/register" method="POST">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label for="passwordMatch">Re-Enter Password</label>
+                <input type="password" name="passwordMatch" class="form-control" id="passwordMatch" placeholder="Password Match">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
 
 {{> footer-end }}
