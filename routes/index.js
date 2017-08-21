@@ -5,6 +5,10 @@ var bcrypt = require('bcrypt');
 const saltRounds = 10;
 
 /* GET home page. */
+router.get('/', function (req, res, next) {
+   res.render('home');
+});
+
 router.get('/register', function(req, res, next) {
   res.render('register', { title: 'Registration' });
 });
