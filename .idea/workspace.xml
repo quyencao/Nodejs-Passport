@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19438de7-7396-4420-984e-587e030bca43" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/register.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.js" afterPath="$PROJECT_DIR$/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/register.hbs" afterPath="$PROJECT_DIR$/views/register.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +44,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -55,7 +56,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
+              <folding>
+                <marker date="1503324320231" expanded="true" signature="138:387" ph="{&quot;body-parser&quot;: &quot;~1.15.2&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +88,69 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1503324320337" expanded="true" signature="222113:222119" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="222133:222291" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="222308:222491" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="222507:223082" ph="{&quot;version&quot;: &quot;1.10.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="222704:222808" ph="{&quot;assert-plus&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="222832:223076" ph="{...}" />
+                <marker date="1503324320337" expanded="true" signature="222857:223068" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="223105:223356" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="223314:223350" ph="{&quot;indexof&quot;: &quot;0.0.1&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="223370:223589" ph="{&quot;version&quot;: &quot;2.3.9&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="223542:223583" ph="{&quot;foreachasync&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="223608:224291" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="223809:223905" ph="{&quot;async&quot;: &quot;2.5.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="223929:224285" ph="{...}" />
+                <marker date="1503324320337" expanded="true" signature="223948:224277" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="224223:224267" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="224308:227894" ph="{&quot;version&quot;: &quot;2.7.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="224567:225231" ph="{&quot;acorn&quot;: &quot;5.1.1&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="225255:227888" ph="{...}" />
+                <marker date="1503324320337" expanded="true" signature="225274:225603" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="225549:225593" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="225626:225833" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="225852:226193" ph="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="226065:226183" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="226219:226605" ph="{&quot;version&quot;: &quot;0.2.17&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="226448:226595" ph="{&quot;big.js&quot;: &quot;3.1.3&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="226629:226838" ph="{&quot;version&quot;: &quot;0.5.6&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="226866:227152" ph="{&quot;version&quot;: &quot;3.2.3&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="227097:227142" ph="{&quot;has-flag&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="227171:227880" ph="{&quot;version&quot;: &quot;6.6.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="227384:227870" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="227925:228196" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="228150:228190" ph="{&quot;dotenv-safe&quot;: &quot;4.0.4&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="228221:229152" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="228496:228571" ph="{&quot;source-list-map&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="228595:229146" ph="{...}" />
+                <marker date="1503324320337" expanded="true" signature="228624:228905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="228929:229138" ph="{&quot;version&quot;: &quot;0.5.6&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="229168:230898" ph="{&quot;version&quot;: &quot;2.0.0-pre-I0Z7U9OV&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="229389:229482" ph="{&quot;express&quot;: &quot;2.5.11&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="229506:230892" ph="{...}" />
+                <marker date="1503324320337" expanded="true" signature="229527:229858" ph="{&quot;version&quot;: &quot;1.9.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="229744:229848" ph="{&quot;formidable&quot;: &quot;1.0.17&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="229879:230239" ph="{&quot;version&quot;: &quot;2.5.11&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="230098:230229" ph="{&quot;connect&quot;: &quot;1.9.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="230257:230454" ph="{&quot;version&quot;: &quot;1.2.4&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="230474:230675" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="230691:230884" ph="{&quot;version&quot;: &quot;0.4.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="230919:231110" ph="{&quot;version&quot;: &quot;0.9.9&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="231125:231420" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="231380:231414" ph="{&quot;isexe&quot;: &quot;2.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="231442:231635" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="231655:231967" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="231920:231961" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="231988:232160" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="232178:232344" ph="{&quot;version&quot;: &quot;0.0.3&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="232363:232642" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="232564:232636" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="232658:232839" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="232851:233107" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+                <marker date="1503324320337" expanded="true" signature="233038:233101" ph="{&quot;options&quot;: &quot;0.0.6&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +158,8 @@
       <file leaf-file-name="register.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/register.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-134">
-              <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <state relative-caret-position="-210">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -103,8 +168,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="434">
+              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -133,7 +198,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/db.js" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/register.hbs" />
       </list>
     </option>
   </component>
@@ -149,8 +216,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="512" />
-    <option name="y" value="62" />
+    <option name="x" value="240" />
+    <option name="y" value="189" />
     <option name="width" value="1400" />
     <option name="height" value="785" />
   </component>
@@ -240,15 +307,15 @@
       <updated>1503248076544</updated>
       <workItem from="1503248078481" duration="2599000" />
       <workItem from="1503286783161" duration="233000" />
-      <workItem from="1503319733721" duration="3191000" />
+      <workItem from="1503319733721" duration="5972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6023000" />
+    <option name="totallyTimeSpent" value="8804000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="512" y="62" width="1400" height="785" extended-state="0" />
+    <frame x="240" y="189" width="1400" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28928047" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -277,7 +344,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -309,7 +378,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1503324320231" expanded="true" signature="138:387" ph="{&quot;body-parser&quot;: &quot;~1.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -333,7 +404,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1503324320337" expanded="true" signature="222113:222119" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222133:222291" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222308:222491" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222507:223082" ph="{&quot;version&quot;: &quot;1.10.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222704:222808" ph="{&quot;assert-plus&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222832:223076" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="222857:223068" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223105:223356" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223314:223350" ph="{&quot;indexof&quot;: &quot;0.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223370:223589" ph="{&quot;version&quot;: &quot;2.3.9&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223542:223583" ph="{&quot;foreachasync&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223608:224291" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223809:223905" ph="{&quot;async&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223929:224285" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="223948:224277" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224223:224267" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224308:227894" ph="{&quot;version&quot;: &quot;2.7.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224567:225231" ph="{&quot;acorn&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225255:227888" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="225274:225603" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225549:225593" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225626:225833" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225852:226193" ph="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226065:226183" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226219:226605" ph="{&quot;version&quot;: &quot;0.2.17&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226448:226595" ph="{&quot;big.js&quot;: &quot;3.1.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226629:226838" ph="{&quot;version&quot;: &quot;0.5.6&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226866:227152" ph="{&quot;version&quot;: &quot;3.2.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227097:227142" ph="{&quot;has-flag&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227171:227880" ph="{&quot;version&quot;: &quot;6.6.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227384:227870" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227925:228196" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228150:228190" ph="{&quot;dotenv-safe&quot;: &quot;4.0.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228221:229152" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228496:228571" ph="{&quot;source-list-map&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228595:229146" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="228624:228905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228929:229138" ph="{&quot;version&quot;: &quot;0.5.6&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229168:230898" ph="{&quot;version&quot;: &quot;2.0.0-pre-I0Z7U9OV&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229389:229482" ph="{&quot;express&quot;: &quot;2.5.11&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229506:230892" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="229527:229858" ph="{&quot;version&quot;: &quot;1.9.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229744:229848" ph="{&quot;formidable&quot;: &quot;1.0.17&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229879:230239" ph="{&quot;version&quot;: &quot;2.5.11&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230098:230229" ph="{&quot;connect&quot;: &quot;1.9.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230257:230454" ph="{&quot;version&quot;: &quot;1.2.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230474:230675" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230691:230884" ph="{&quot;version&quot;: &quot;0.4.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230919:231110" ph="{&quot;version&quot;: &quot;0.9.9&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231125:231420" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231380:231414" ph="{&quot;isexe&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231442:231635" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231655:231967" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231920:231961" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231988:232160" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232178:232344" ph="{&quot;version&quot;: &quot;0.0.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232363:232642" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232564:232636" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232658:232839" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232851:233107" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="233038:233101" ph="{&quot;options&quot;: &quot;0.0.6&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,7 +522,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1503324320231" expanded="true" signature="138:387" ph="{&quot;body-parser&quot;: &quot;~1.15.2&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -413,7 +548,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1503324320337" expanded="true" signature="222113:222119" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222133:222291" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222308:222491" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222507:223082" ph="{&quot;version&quot;: &quot;1.10.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222704:222808" ph="{&quot;assert-plus&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222832:223076" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="222857:223068" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223105:223356" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223314:223350" ph="{&quot;indexof&quot;: &quot;0.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223370:223589" ph="{&quot;version&quot;: &quot;2.3.9&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223542:223583" ph="{&quot;foreachasync&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223608:224291" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223809:223905" ph="{&quot;async&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223929:224285" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="223948:224277" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224223:224267" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224308:227894" ph="{&quot;version&quot;: &quot;2.7.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224567:225231" ph="{&quot;acorn&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225255:227888" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="225274:225603" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225549:225593" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225626:225833" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225852:226193" ph="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226065:226183" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226219:226605" ph="{&quot;version&quot;: &quot;0.2.17&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226448:226595" ph="{&quot;big.js&quot;: &quot;3.1.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226629:226838" ph="{&quot;version&quot;: &quot;0.5.6&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226866:227152" ph="{&quot;version&quot;: &quot;3.2.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227097:227142" ph="{&quot;has-flag&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227171:227880" ph="{&quot;version&quot;: &quot;6.6.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227384:227870" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227925:228196" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228150:228190" ph="{&quot;dotenv-safe&quot;: &quot;4.0.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228221:229152" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228496:228571" ph="{&quot;source-list-map&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228595:229146" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="228624:228905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228929:229138" ph="{&quot;version&quot;: &quot;0.5.6&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229168:230898" ph="{&quot;version&quot;: &quot;2.0.0-pre-I0Z7U9OV&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229389:229482" ph="{&quot;express&quot;: &quot;2.5.11&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229506:230892" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="229527:229858" ph="{&quot;version&quot;: &quot;1.9.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229744:229848" ph="{&quot;formidable&quot;: &quot;1.0.17&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229879:230239" ph="{&quot;version&quot;: &quot;2.5.11&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230098:230229" ph="{&quot;connect&quot;: &quot;1.9.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230257:230454" ph="{&quot;version&quot;: &quot;1.2.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230474:230675" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230691:230884" ph="{&quot;version&quot;: &quot;0.4.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230919:231110" ph="{&quot;version&quot;: &quot;0.9.9&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231125:231420" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231380:231414" ph="{&quot;isexe&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231442:231635" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231655:231967" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231920:231961" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231988:232160" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232178:232344" ph="{&quot;version&quot;: &quot;0.0.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232363:232642" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232564:232636" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232658:232839" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232851:233107" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="233038:233101" ph="{&quot;options&quot;: &quot;0.0.6&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -479,19 +676,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/register.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1503324320337" expanded="true" signature="222113:222119" ph="{&quot;version&quot;: &quot;3.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222133:222291" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222308:222491" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222507:223082" ph="{&quot;version&quot;: &quot;1.10.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222704:222808" ph="{&quot;assert-plus&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="222832:223076" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="222857:223068" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223105:223356" ph="{&quot;version&quot;: &quot;0.0.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223314:223350" ph="{&quot;indexof&quot;: &quot;0.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223370:223589" ph="{&quot;version&quot;: &quot;2.3.9&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223542:223583" ph="{&quot;foreachasync&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223608:224291" ph="{&quot;version&quot;: &quot;1.4.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223809:223905" ph="{&quot;async&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="223929:224285" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="223948:224277" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224223:224267" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224308:227894" ph="{&quot;version&quot;: &quot;2.7.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="224567:225231" ph="{&quot;acorn&quot;: &quot;5.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225255:227888" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="225274:225603" ph="{&quot;version&quot;: &quot;2.5.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225549:225593" ph="{&quot;lodash&quot;: &quot;4.17.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225626:225833" ph="{&quot;version&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="225852:226193" ph="{&quot;version&quot;: &quot;3.2.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226065:226183" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226219:226605" ph="{&quot;version&quot;: &quot;0.2.17&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226448:226595" ph="{&quot;big.js&quot;: &quot;3.1.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226629:226838" ph="{&quot;version&quot;: &quot;0.5.6&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="226866:227152" ph="{&quot;version&quot;: &quot;3.2.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227097:227142" ph="{&quot;has-flag&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227171:227880" ph="{&quot;version&quot;: &quot;6.6.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227384:227870" ph="{&quot;camelcase&quot;: &quot;3.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="227925:228196" ph="{&quot;version&quot;: &quot;2.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228150:228190" ph="{&quot;dotenv-safe&quot;: &quot;4.0.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228221:229152" ph="{&quot;version&quot;: &quot;1.0.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228496:228571" ph="{&quot;source-list-map&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228595:229146" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="228624:228905" ph="{&quot;version&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="228929:229138" ph="{&quot;version&quot;: &quot;0.5.6&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229168:230898" ph="{&quot;version&quot;: &quot;2.0.0-pre-I0Z7U9OV&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229389:229482" ph="{&quot;express&quot;: &quot;2.5.11&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229506:230892" ph="{...}" />
+            <marker date="1503324320337" expanded="true" signature="229527:229858" ph="{&quot;version&quot;: &quot;1.9.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229744:229848" ph="{&quot;formidable&quot;: &quot;1.0.17&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="229879:230239" ph="{&quot;version&quot;: &quot;2.5.11&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230098:230229" ph="{&quot;connect&quot;: &quot;1.9.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230257:230454" ph="{&quot;version&quot;: &quot;1.2.4&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230474:230675" ph="{&quot;version&quot;: &quot;0.3.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230691:230884" ph="{&quot;version&quot;: &quot;0.4.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="230919:231110" ph="{&quot;version&quot;: &quot;0.9.9&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231125:231420" ph="{&quot;version&quot;: &quot;1.3.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231380:231414" ph="{&quot;isexe&quot;: &quot;2.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231442:231635" ph="{&quot;version&quot;: &quot;1.0.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231655:231967" ph="{&quot;version&quot;: &quot;1.1.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231920:231961" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="231988:232160" ph="{&quot;version&quot;: &quot;0.1.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232178:232344" ph="{&quot;version&quot;: &quot;0.0.3&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232363:232642" ph="{&quot;version&quot;: &quot;2.1.0&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232564:232636" ph="{&quot;string-width&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232658:232839" ph="{&quot;version&quot;: &quot;1.0.2&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="232851:233107" ph="{&quot;version&quot;: &quot;1.1.1&quot;...}" />
+            <marker date="1503324320337" expanded="true" signature="233038:233101" ph="{&quot;options&quot;: &quot;0.0.6&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -499,14 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -523,14 +766,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1503324320231" expanded="true" signature="138:387" ph="{&quot;body-parser&quot;: &quot;~1.15.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/register.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="434">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding />
         </state>
       </provider>
