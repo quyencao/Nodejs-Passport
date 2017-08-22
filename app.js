@@ -9,6 +9,7 @@ var expressValidator = require('express-validator');
 // Authentication Packages
 var session = require('express-session');
 var passport = require('passport');
+var MySQLStore = require('express-mysql-session')(session);
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -16,6 +17,14 @@ var users = require('./routes/users');
 var app = express();
 
 require('dotenv').config();
+
+var options = {
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database : process.env.DB_NAME
+};
+var sessionsStore = new MySQLStore(options);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -34,6 +43,7 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
     // cookie: { secure: true }
+    store: sessionsStore
 }));
 app.use(passport.initialize());
 app.use(passport.session());
