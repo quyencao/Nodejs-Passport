@@ -51,8 +51,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 passport.use(new LocalStrategy(
     function(username, password, done) {
-        console.log(username);
-        console.log(password);
+        //console.log(username);
+        //console.log(password);
 
         const db = require('./db');
 
@@ -70,7 +70,7 @@ passport.use(new LocalStrategy(
                 // console.log(results[0].password.toString());
 
                 bcrypt.compare(password, hash, function (error, response) {
-                    console.log(response);
+                    //console.log(response);
                     if(response) {
                         return done(null, { user_id: results[0].id });
                     }
@@ -81,6 +81,12 @@ passport.use(new LocalStrategy(
 
     }
 ));
+app.use(function (req, res, next) {
+   // pass check authenticated to view
+   // put variable in req.locals will available in view automatically
+   res.locals.isAuthenticated = req.isAuthenticated();
+   next();
+});
 
 app.use('/', index);
 app.use('/users', users);
