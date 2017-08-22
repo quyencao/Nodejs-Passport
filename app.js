@@ -9,7 +9,9 @@ var expressValidator = require('express-validator');
 // Authentication Packages
 var session = require('express-session');
 var passport = require('passport');
+var LocalStrategy = require('passport-local').Strategy;
 var MySQLStore = require('express-mysql-session')(session);
+var bcrypt = require('bcrypt');
 
 var index = require('./routes/index');
 var users = require('./routes/users');
@@ -47,6 +49,38 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
+passport.use(new LocalStrategy(
+    function(username, password, done) {
+        console.log(username);
+        console.log(password);
+
+        const db = require('./db');
+
+        db.query('SELECT id, password FROM users WHERE username = ?', [username],
+            function (error, results, fields) {
+                if(error) {
+                    return done(err, false);
+                }
+
+                if(results.length === 0) {
+                    return done(null, false);
+                }
+
+                const hash = results[0].password.toString();
+                // console.log(results[0].password.toString());
+
+                bcrypt.compare(password, hash, function (error, response) {
+                    console.log(response);
+                    if(response) {
+                        return done(null, { user_id: results[0].id });
+                    }
+
+                    return done(null, false);
+                });
+            });
+
+    }
+));
 
 app.use('/', index);
 app.use('/users', users);
